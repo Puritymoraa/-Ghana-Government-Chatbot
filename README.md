@@ -36,7 +36,7 @@ An intelligent chatbot that:
 - **Voice**: Web Speech API + Google Text-to-Speech
 - **Extension**: Chrome Extension (Manifest V3)
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 User Interface (Web + Extension)
@@ -46,7 +46,7 @@ User Interface (Web + Extension)
     ┌────┴────┐
     ↓         ↓
 Retrieval  Generation
-(ChromaDB) (Llama 3.1)
+(ChromaDB) (Llama 3.1 + Phi 3)
     ↓         ↓
     └────┬────┘
          ↓
